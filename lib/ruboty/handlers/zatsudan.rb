@@ -6,8 +6,8 @@ module Ruboty
     class Zatsudan < Base
       env :DOCOMO_APIKEY, 'Docomo API key'
 
-      on /.*/,        name: 'zatsudan', description: 'receive any 雑談', all: true, hidden: true
-      on /雑談しよ/,    name: 'zatsudan_start', description: 'start 雑談'
+      on /.*/,           name: 'zatsudan',       description: 'receive any 雑談', all: true, hidden: true
+      on /雑談しよ/,     name: 'zatsudan_start', description: 'start 雑談'
       on /雑談もういい/, name: 'zatsudan_end',   description: 'end 雑談'
 
       def zatsudan_start(message)
