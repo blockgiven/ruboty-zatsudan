@@ -2,6 +2,8 @@
 
 ruboty plugin for 雑談.
 
+![screenshot](screenshot.png)
+
 ## Installation
 
 Add this line to your application's Gemfile:
